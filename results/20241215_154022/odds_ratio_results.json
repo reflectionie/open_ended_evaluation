@@ -1,0 +1,558 @@
+{
+    "odds_ratio_Chinese_vs_Portuguese": {
+        "top_odds": {
+            "honest": 4.86,
+            "friendly": 3.75,
+            "rich": 1.2,
+            "ambitious": 1.14,
+            "weak": 1.13
+        },
+        "bottom_odds": {
+            "capable": 0.17,
+            "genuine": 0.38,
+            "kind": 0.86,
+            "weak": 1.13,
+            "pleasant": 1.13
+        }
+    },
+    "odds_ratio_Chinese_vs_Spanish": {
+        "top_odds": {
+            "friendly": 3.77,
+            "weak": 2.64,
+            "loving": 1.73,
+            "honest": 1.73,
+            "generous": 1.29
+        },
+        "bottom_odds": {
+            "capable": 0.13,
+            "genuine": 0.71,
+            "kind": 0.72,
+            "rich": 0.8,
+            "reliable": 0.85
+        }
+    },
+    "odds_ratio_Chinese_vs_Arabic": {
+        "top_odds": {
+            "friendly": 7.03,
+            "weak": 2.62,
+            "pleasant": 2.62,
+            "loving": 1.27,
+            "reliable": 1.27
+        },
+        "bottom_odds": {
+            "capable": 0.19,
+            "kind": 0.38,
+            "genuine": 0.59,
+            "generous": 0.62,
+            "rich": 0.82
+        }
+    },
+    "odds_ratio_Portuguese_vs_Spanish": {
+        "top_odds": {
+            "weak": 2.33,
+            "genuine": 1.86,
+            "friendly": 1.01,
+            "kind": 0.84,
+            "capable": 0.75
+        },
+        "bottom_odds": {
+            "honest": 0.36,
+            "rich": 0.67,
+            "capable": 0.75,
+            "reliable": 0.75,
+            "kind": 0.84
+        }
+    },
+    "odds_ratio_Portuguese_vs_Arabic": {
+        "top_odds": {
+            "pleasant": 2.31,
+            "weak": 2.31,
+            "friendly": 1.88,
+            "genuine": 1.55,
+            "capable": 1.12
+        },
+        "bottom_odds": {
+            "kind": 0.44,
+            "rich": 0.69,
+            "capable": 1.12,
+            "reliable": 1.12,
+            "genuine": 1.55
+        }
+    },
+    "odds_ratio_Spanish_vs_Arabic": {
+        "top_odds": {
+            "friendly": 1.86,
+            "lovable": 1.5,
+            "reliable": 1.5,
+            "capable": 1.5,
+            "rich": 1.03
+        },
+        "bottom_odds": {
+            "generous": 0.48,
+            "menacing": 0.48,
+            "kind": 0.52,
+            "helpful": 0.74,
+            "loving": 0.74
+        }
+    },
+    "odds_ratio_male_vs_female": {
+        "top_odds": {
+            "loving": 3.26,
+            "genuine": 2.51,
+            "friendly": 1.7,
+            "weak": 1.43,
+            "capable": 1.35
+        },
+        "bottom_odds": {
+            "menacing": 0.35,
+            "honest": 0.41,
+            "kind": 0.58,
+            "rich": 0.86,
+            "generous": 1.06
+        }
+    },
+    "odds_ratio_Chinese_male_vs_female": {
+        "top_odds": {
+            "genuine": 12.25,
+            "rich": 1.4,
+            "friendly": 1.27,
+            "generous": 1.27,
+            "capable": 0.6
+        },
+        "bottom_odds": {
+            "capable": 0.6,
+            "friendly": 1.27,
+            "generous": 1.27,
+            "rich": 1.4,
+            "genuine": 12.25
+        }
+    },
+    "odds_ratio_Portuguese_male_vs_female": {
+        "top_odds": {
+            "rich": 1.14,
+            "friendly": 1.11,
+            "honest": 1.1,
+            "kind": 0.79,
+            "genuine": 0.52
+        },
+        "bottom_odds": {
+            "genuine": 0.52,
+            "kind": 0.79,
+            "honest": 1.1,
+            "friendly": 1.11,
+            "rich": 1.14
+        }
+    },
+    "odds_ratio_Spanish_male_vs_female": {
+        "top_odds": {
+            "genuine": 2.32,
+            "weak": 1.74,
+            "generous": 1.74,
+            "kind": 1.49,
+            "friendly": 0.83
+        },
+        "bottom_odds": {
+            "menacing": 0.41,
+            "rich": 0.8,
+            "friendly": 0.83,
+            "kind": 1.49,
+            "weak": 1.74
+        }
+    },
+    "odds_ratio_Arabic_male_vs_female": {
+        "top_odds": {
+            "friendly": 5.83,
+            "kind": 2.47,
+            "genuine": 1.18,
+            "weak": 1.17,
+            "rich": 0.33
+        },
+        "bottom_odds": {
+            "rich": 0.33,
+            "weak": 1.17,
+            "genuine": 1.18,
+            "kind": 2.47,
+            "friendly": 5.83
+        }
+    },
+    "odds_ratio_male_Chinese_vs_Portuguese": {
+        "top_odds": {
+            "friendly": 4.0,
+            "honest": 2.55,
+            "genuine": 2.55,
+            "rich": 1.31,
+            "pleasant": 1.22
+        },
+        "bottom_odds": {
+            "kind": 0.44,
+            "pleasant": 1.22,
+            "rich": 1.31,
+            "honest": 2.55,
+            "genuine": 2.55
+        }
+    },
+    "odds_ratio_male_Chinese_vs_Spanish": {
+        "top_odds": {
+            "friendly": 4.67,
+            "honest": 2.15,
+            "genuine": 2.15,
+            "rich": 1.05,
+            "weak": 1.04
+        },
+        "bottom_odds": {
+            "kind": 0.27,
+            "weak": 1.04,
+            "generous": 1.04,
+            "rich": 1.05,
+            "honest": 2.15
+        }
+    },
+    "odds_ratio_male_Chinese_vs_Arabic": {
+        "top_odds": {
+            "friendly": 2.8,
+            "genuine": 2.8,
+            "rich": 1.5,
+            "weak": 1.33,
+            "generous": 1.33
+        },
+        "bottom_odds": {
+            "kind": 0.11,
+            "weak": 1.33,
+            "generous": 1.33,
+            "rich": 1.5,
+            "friendly": 2.8
+        }
+    },
+    "odds_ratio_male_Portuguese_vs_Spanish": {
+        "top_odds": {
+            "friendly": 1.17,
+            "genuine": 0.85,
+            "honest": 0.85,
+            "rich": 0.8,
+            "kind": 0.6
+        },
+        "bottom_odds": {
+            "kind": 0.6,
+            "rich": 0.8,
+            "genuine": 0.85,
+            "honest": 0.85,
+            "friendly": 1.17
+        }
+    },
+    "odds_ratio_male_Portuguese_vs_Arabic": {
+        "top_odds": {
+            "rich": 1.14,
+            "genuine": 1.1,
+            "friendly": 0.7,
+            "kind": 0.24
+        },
+        "bottom_odds": {
+            "kind": 0.24,
+            "friendly": 0.7,
+            "genuine": 1.1,
+            "rich": 1.14
+        }
+    },
+    "odds_ratio_male_Spanish_vs_Arabic": {
+        "top_odds": {
+            "rich": 1.43,
+            "genuine": 1.3,
+            "weak": 1.29,
+            "generous": 1.29,
+            "lovable": 1.29
+        },
+        "bottom_odds": {
+            "kind": 0.4,
+            "friendly": 0.6,
+            "helpful": 0.62,
+            "menacing": 0.62,
+            "weak": 1.29
+        }
+    },
+    "odds_ratio_female_Chinese_vs_Portuguese": {
+        "top_odds": {
+            "friendly": 3.47,
+            "rich": 1.07,
+            "reliable": 1.05,
+            "capable": 0.5,
+            "genuine": 0.11
+        },
+        "bottom_odds": {
+            "genuine": 0.11,
+            "capable": 0.5,
+            "reliable": 1.05,
+            "rich": 1.07,
+            "friendly": 3.47
+        }
+    },
+    "odds_ratio_female_Chinese_vs_Spanish": {
+        "top_odds": {
+            "friendly": 3.03,
+            "generous": 1.42,
+            "rich": 0.6,
+            "genuine": 0.41,
+            "capable": 0.33
+        },
+        "bottom_odds": {
+            "capable": 0.33,
+            "genuine": 0.41,
+            "rich": 0.6,
+            "generous": 1.42,
+            "friendly": 3.03
+        }
+    },
+    "odds_ratio_female_Chinese_vs_Arabic": {
+        "top_odds": {
+            "friendly": 12.83,
+            "capable": 0.58,
+            "rich": 0.35,
+            "genuine": 0.27
+        },
+        "bottom_odds": {
+            "genuine": 0.27,
+            "rich": 0.35,
+            "capable": 0.58,
+            "friendly": 12.83
+        }
+    },
+    "odds_ratio_female_Portuguese_vs_Spanish": {
+        "top_odds": {
+            "genuine": 3.75,
+            "weak": 1.35,
+            "kind": 1.13,
+            "friendly": 0.87,
+            "capable": 0.66
+        },
+        "bottom_odds": {
+            "rich": 0.56,
+            "capable": 0.66,
+            "friendly": 0.87,
+            "kind": 1.13,
+            "weak": 1.35
+        }
+    },
+    "odds_ratio_female_Portuguese_vs_Arabic": {
+        "top_odds": {
+            "friendly": 3.69,
+            "genuine": 2.47,
+            "weak": 1.17,
+            "capable": 1.17,
+            "kind": 0.75
+        },
+        "bottom_odds": {
+            "rich": 0.33,
+            "kind": 0.75,
+            "weak": 1.17,
+            "capable": 1.17,
+            "genuine": 2.47
+        }
+    },
+    "odds_ratio_female_Spanish_vs_Arabic": {
+        "top_odds": {
+            "friendly": 4.23,
+            "capable": 1.78,
+            "weak": 0.86,
+            "loving": 0.86,
+            "kind": 0.66
+        },
+        "bottom_odds": {
+            "rich": 0.59,
+            "kind": 0.66,
+            "genuine": 0.66,
+            "weak": 0.86,
+            "loving": 0.86
+        }
+    },
+    "odds_ratio_Chinese_vs_others": {
+        "top_odds": {
+            "friendly": 4.6,
+            "honest": 2.15,
+            "weak": 2.15,
+            "loving": 1.06,
+            "pleasant": 1.06
+        },
+        "bottom_odds": {
+            "capable": 0.16,
+            "ambitious": 0.34,
+            "timid": 0.35,
+            "genuine": 0.57,
+            "kind": 0.66
+        }
+    },
+    "odds_ratio_Portuguese_vs_others": {
+        "top_odds": {
+            "capable": 2.47,
+            "genuine": 2.02,
+            "weak": 1.82,
+            "friendly": 0.94,
+            "pleasant": 0.89
+        },
+        "bottom_odds": {
+            "honest": 0.21,
+            "ambitious": 0.29,
+            "timid": 0.29,
+            "rich": 0.73,
+            "kind": 0.83
+        }
+    },
+    "odds_ratio_Spanish_vs_others": {
+        "top_odds": {
+            "capable": 3.66,
+            "reliable": 1.32,
+            "rich": 1.26,
+            "honest": 1.1,
+            "kind": 1.05
+        },
+        "bottom_odds": {
+            "menacing": 0.14,
+            "helpful": 0.21,
+            "generous": 0.43,
+            "lovable": 0.43,
+            "loving": 0.43
+        }
+    },
+    "odds_ratio_Arabic_vs_others": {
+        "top_odds": {
+            "kind": 2.25,
+            "capable": 2.12,
+            "generous": 1.3,
+            "rich": 1.18,
+            "genuine": 1.18
+        },
+        "bottom_odds": {
+            "lovable": 0.25,
+            "pleasant": 0.25,
+            "friendly": 0.4,
+            "helpful": 0.51,
+            "weak": 0.63
+        }
+    },
+    "odds_ratio_male_Chinese_vs_others": {
+        "top_odds": {
+            "friendly": 3.88,
+            "genuine": 2.47,
+            "honest": 1.6,
+            "rich": 1.26,
+            "weak": 0.78
+        },
+        "bottom_odds": {
+            "kind": 0.27,
+            "pleasant": 0.38,
+            "weak": 0.78,
+            "generous": 0.78,
+            "rich": 1.26
+        }
+    },
+    "odds_ratio_male_Portuguese_vs_others": {
+        "top_odds": {
+            "kind": 0.98,
+            "rich": 0.87,
+            "genuine": 0.74,
+            "friendly": 0.68,
+            "honest": 0.43
+        },
+        "bottom_odds": {
+            "pleasant": 0.29,
+            "honest": 0.43,
+            "friendly": 0.68,
+            "genuine": 0.74,
+            "rich": 0.87
+        }
+    },
+    "odds_ratio_male_Spanish_vs_others": {
+        "top_odds": {
+            "kind": 1.91,
+            "rich": 1.18,
+            "genuine": 0.93,
+            "weak": 0.74,
+            "generous": 0.74
+        },
+        "bottom_odds": {
+            "helpful": 0.18,
+            "menacing": 0.18,
+            "lovable": 0.36,
+            "reliable": 0.36,
+            "friendly": 0.52
+        }
+    },
+    "odds_ratio_male_Arabic_vs_others": {
+        "top_odds": {
+            "kind": 5.17,
+            "friendly": 1.1,
+            "rich": 0.74,
+            "genuine": 0.66,
+            "helpful": 0.53
+        },
+        "bottom_odds": {
+            "lovable": 0.26,
+            "reliable": 0.26,
+            "helpful": 0.53,
+            "menacing": 0.53,
+            "weak": 0.53
+        }
+    },
+    "odds_ratio_female_Chinese_vs_others": {
+        "top_odds": {
+            "friendly": 5.13,
+            "rich": 0.65,
+            "generous": 0.61,
+            "capable": 0.44,
+            "reliable": 0.3
+        },
+        "bottom_odds": {
+            "genuine": 0.28,
+            "reliable": 0.3,
+            "capable": 0.44,
+            "generous": 0.61,
+            "rich": 0.65
+        }
+    },
+    "odds_ratio_female_Portuguese_vs_others": {
+        "top_odds": {
+            "genuine": 4.82,
+            "friendly": 1.21,
+            "capable": 1.18,
+            "weak": 0.88,
+            "kind": 0.65
+        },
+        "bottom_odds": {
+            "reliable": 0.28,
+            "rich": 0.59,
+            "kind": 0.65,
+            "weak": 0.88,
+            "capable": 1.18
+        }
+    },
+    "odds_ratio_female_Spanish_vs_others": {
+        "top_odds": {
+            "capable": 2.13,
+            "friendly": 1.5,
+            "rich": 1.32,
+            "genuine": 1.04,
+            "weak": 0.5
+        },
+        "bottom_odds": {
+            "generous": 0.25,
+            "loving": 0.25,
+            "kind": 0.47,
+            "weak": 0.5,
+            "genuine": 1.04
+        }
+    },
+    "odds_ratio_female_Arabic_vs_others": {
+        "top_odds": {
+            "rich": 2.37,
+            "genuine": 1.7,
+            "kind": 0.97,
+            "capable": 0.97,
+            "weak": 0.72
+        },
+        "bottom_odds": {
+            "friendly": 0.2,
+            "loving": 0.47,
+            "weak": 0.72,
+            "kind": 0.97,
+            "capable": 0.97
+        }
+    }
+}

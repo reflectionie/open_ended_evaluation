@@ -1,0 +1,786 @@
+{
+    "averages_by_culture_gender": {
+        "Chinese": {
+            "male": {
+                "normalized_ttr": 13.002370414682376,
+                "mtld_score": 89.80811672403901,
+                "polarity": 0.0998539987183818,
+                "subjectivity": 0.4791430014468508,
+                "positive_count": 58.03333333333333,
+                "total_count": 1534.4333333333334,
+                "positive_ratio": 0.037735449011003945,
+                "negative_count": 34.53333333333333,
+                "negative_ratio": 0.02283811448573459,
+                "top_positive_words": [
+                    [
+                        "impressed",
+                        1.0
+                    ],
+                    [
+                        "wonderfully",
+                        1.0
+                    ],
+                    [
+                        "excellent",
+                        1.0
+                    ],
+                    [
+                        "delicious",
+                        1.0
+                    ],
+                    [
+                        "legendary",
+                        1.0
+                    ]
+                ],
+                "top_negative_words": [
+                    [
+                        "worst",
+                        -1.0
+                    ],
+                    [
+                        "terrible",
+                        -1.0
+                    ],
+                    [
+                        "horribly",
+                        -1.0
+                    ],
+                    [
+                        "ruthless",
+                        -1.0
+                    ],
+                    [
+                        "cruel",
+                        -1.0
+                    ]
+                ]
+            },
+            "female": {
+                "normalized_ttr": 13.025838099731727,
+                "mtld_score": 93.31990740031382,
+                "polarity": 0.09415834522960666,
+                "subjectivity": 0.4802788628670151,
+                "positive_count": 61.06666666666667,
+                "total_count": 1615.2666666666667,
+                "positive_ratio": 0.037743884936203266,
+                "negative_count": 37.3,
+                "negative_ratio": 0.022916987700060006,
+                "top_positive_words": [
+                    [
+                        "greatest",
+                        1.0
+                    ],
+                    [
+                        "best",
+                        1.0
+                    ],
+                    [
+                        "perfect",
+                        1.0
+                    ],
+                    [
+                        "perfectly",
+                        1.0
+                    ],
+                    [
+                        "Best",
+                        1.0
+                    ]
+                ],
+                "top_negative_words": [
+                    [
+                        "worst",
+                        -1.0
+                    ],
+                    [
+                        "miserable",
+                        -1.0
+                    ],
+                    [
+                        "terrible",
+                        -1.0
+                    ],
+                    [
+                        "cruel",
+                        -1.0
+                    ],
+                    [
+                        "terrifying",
+                        -1.0
+                    ]
+                ]
+            }
+        },
+        "Portuguese": {
+            "male": {
+                "normalized_ttr": 13.094712262159254,
+                "mtld_score": 93.30900035136125,
+                "polarity": 0.10487087479800913,
+                "subjectivity": 0.4717629274684372,
+                "positive_count": 59.4,
+                "total_count": 1629.0,
+                "positive_ratio": 0.0361740468975751,
+                "negative_count": 33.63333333333333,
+                "negative_ratio": 0.020686894244130553,
+                "top_positive_words": [
+                    [
+                        "legendary",
+                        1.0
+                    ],
+                    [
+                        "delicious",
+                        1.0
+                    ],
+                    [
+                        "greatest",
+                        1.0
+                    ],
+                    [
+                        "best",
+                        1.0
+                    ],
+                    [
+                        "perfect",
+                        1.0
+                    ]
+                ],
+                "top_negative_words": [
+                    [
+                        "terrible",
+                        -1.0
+                    ],
+                    [
+                        "awfully",
+                        -1.0
+                    ],
+                    [
+                        "ruthless",
+                        -1.0
+                    ],
+                    [
+                        "cruel",
+                        -1.0
+                    ],
+                    [
+                        "violent",
+                        -0.8
+                    ]
+                ]
+            },
+            "female": {
+                "normalized_ttr": 12.931763224219155,
+                "mtld_score": 89.87283040163837,
+                "polarity": 0.12456679072822391,
+                "subjectivity": 0.47212131373787986,
+                "positive_count": 67.73333333333333,
+                "total_count": 1656.7333333333333,
+                "positive_ratio": 0.0408313915206607,
+                "negative_count": 34.36666666666667,
+                "negative_ratio": 0.020726767292781476,
+                "top_positive_words": [
+                    [
+                        "impressed",
+                        1.0
+                    ],
+                    [
+                        "greatest",
+                        1.0
+                    ],
+                    [
+                        "best",
+                        1.0
+                    ],
+                    [
+                        "awesome",
+                        1.0
+                    ],
+                    [
+                        "perfect",
+                        1.0
+                    ]
+                ],
+                "top_negative_words": [
+                    [
+                        "miserable",
+                        -1.0
+                    ],
+                    [
+                        "terrible",
+                        -1.0
+                    ],
+                    [
+                        "awful",
+                        -1.0
+                    ],
+                    [
+                        "cruel",
+                        -1.0
+                    ],
+                    [
+                        "terrifying",
+                        -1.0
+                    ]
+                ]
+            }
+        },
+        "Spanish": {
+            "male": {
+                "normalized_ttr": 12.59631936212552,
+                "mtld_score": 88.10276616492197,
+                "polarity": 0.1179137208978459,
+                "subjectivity": 0.4710373547203289,
+                "positive_count": 64.9,
+                "total_count": 1663.2666666666667,
+                "positive_ratio": 0.039004002676276336,
+                "negative_count": 34.2,
+                "negative_ratio": 0.02065923806114138,
+                "top_positive_words": [
+                    [
+                        "impressed",
+                        1.0
+                    ],
+                    [
+                        "greatest",
+                        1.0
+                    ],
+                    [
+                        "best",
+                        1.0
+                    ],
+                    [
+                        "perfect",
+                        1.0
+                    ],
+                    [
+                        "perfectly",
+                        1.0
+                    ]
+                ],
+                "top_negative_words": [
+                    [
+                        "nasty",
+                        -1.0
+                    ],
+                    [
+                        "worst",
+                        -1.0
+                    ],
+                    [
+                        "boring",
+                        -1.0
+                    ],
+                    [
+                        "terrifying",
+                        -1.0
+                    ],
+                    [
+                        "menacing",
+                        -1.0
+                    ]
+                ]
+            },
+            "female": {
+                "normalized_ttr": 12.87831534563538,
+                "mtld_score": 91.18584564854096,
+                "polarity": 0.10619108074364175,
+                "subjectivity": 0.4792340751108721,
+                "positive_count": 59.733333333333334,
+                "total_count": 1618.5,
+                "positive_ratio": 0.036978301308505594,
+                "negative_count": 33.46666666666667,
+                "negative_ratio": 0.02071506458417533,
+                "top_positive_words": [
+                    [
+                        "wonderfully",
+                        1.0
+                    ],
+                    [
+                        "delicious",
+                        1.0
+                    ],
+                    [
+                        "greatest",
+                        1.0
+                    ],
+                    [
+                        "best",
+                        1.0
+                    ],
+                    [
+                        "flawless",
+                        1.0
+                    ]
+                ],
+                "top_negative_words": [
+                    [
+                        "menacing",
+                        -1.0
+                    ],
+                    [
+                        "grief",
+                        -0.8
+                    ],
+                    [
+                        "base",
+                        -0.8
+                    ],
+                    [
+                        "crap",
+                        -0.8
+                    ],
+                    [
+                        "claustrophobic",
+                        -0.75
+                    ]
+                ]
+            }
+        },
+        "Arabic": {
+            "male": {
+                "normalized_ttr": 12.941392601878874,
+                "mtld_score": 90.70847407002478,
+                "polarity": 0.09316367716373816,
+                "subjectivity": 0.4705970868627594,
+                "positive_count": 59.13333333333333,
+                "total_count": 1588.7333333333333,
+                "positive_ratio": 0.03687177014278233,
+                "negative_count": 38.333333333333336,
+                "negative_ratio": 0.023980485497601168,
+                "top_positive_words": [
+                    [
+                        "delicious",
+                        1.0
+                    ],
+                    [
+                        "greatest",
+                        1.0
+                    ],
+                    [
+                        "best",
+                        1.0
+                    ],
+                    [
+                        "perfect",
+                        1.0
+                    ],
+                    [
+                        "Best",
+                        1.0
+                    ]
+                ],
+                "top_negative_words": [
+                    [
+                        "miserable",
+                        -1.0
+                    ],
+                    [
+                        "cruel",
+                        -1.0
+                    ],
+                    [
+                        "menacing",
+                        -1.0
+                    ],
+                    [
+                        "grief",
+                        -0.8
+                    ],
+                    [
+                        "worthless",
+                        -0.8
+                    ]
+                ]
+            },
+            "female": {
+                "normalized_ttr": 12.63709955902174,
+                "mtld_score": 88.55483696730644,
+                "polarity": 0.10694162021572025,
+                "subjectivity": 0.4810387545993615,
+                "positive_count": 62.03333333333333,
+                "total_count": 1590.6,
+                "positive_ratio": 0.03893705993425012,
+                "negative_count": 35.266666666666666,
+                "negative_ratio": 0.02211533705558647,
+                "top_positive_words": [
+                    [
+                        "impressed",
+                        1.0
+                    ],
+                    [
+                        "top-notch",
+                        1.0
+                    ],
+                    [
+                        "greatest",
+                        1.0
+                    ],
+                    [
+                        "best",
+                        1.0
+                    ],
+                    [
+                        "perfect",
+                        1.0
+                    ]
+                ],
+                "top_negative_words": [
+                    [
+                        "shocking",
+                        -1.0
+                    ],
+                    [
+                        "hated",
+                        -0.9
+                    ],
+                    [
+                        "grief",
+                        -0.8
+                    ],
+                    [
+                        "idiot",
+                        -0.8
+                    ],
+                    [
+                        "base",
+                        -0.8
+                    ]
+                ]
+            }
+        }
+    },
+    "averages_by_culture": {
+        "Chinese": {
+            "normalized_ttr": 13.014104257207052,
+            "mtld_score": 91.56401206217642,
+            "polarity": 0.09700617197399422,
+            "subjectivity": 0.47971093215693295,
+            "positive_count": 59.55,
+            "total_count": 1574.85,
+            "positive_ratio": 0.037739666973603606,
+            "negative_count": 35.916666666666664,
+            "negative_ratio": 0.022877551092897297,
+            "top_positive_words": [
+                [
+                    "excellent",
+                    1.0
+                ],
+                [
+                    "legendary",
+                    1.0
+                ],
+                [
+                    "delicious",
+                    1.0
+                ],
+                [
+                    "best",
+                    1.0
+                ],
+                [
+                    "perfectly",
+                    1.0
+                ]
+            ],
+            "top_negative_words": [
+                [
+                    "cruel",
+                    -1.0
+                ],
+                [
+                    "horribly",
+                    -1.0
+                ],
+                [
+                    "worst",
+                    -1.0
+                ],
+                [
+                    "terrifying",
+                    -1.0
+                ],
+                [
+                    "ruthless",
+                    -1.0
+                ]
+            ]
+        },
+        "Portuguese": {
+            "normalized_ttr": 13.013237743189205,
+            "mtld_score": 91.59091537649981,
+            "polarity": 0.11471883276311652,
+            "subjectivity": 0.47194212060315854,
+            "positive_count": 63.56666666666666,
+            "total_count": 1642.8666666666668,
+            "positive_ratio": 0.038502719209117894,
+            "negative_count": 34.0,
+            "negative_ratio": 0.020706830768456017,
+            "top_positive_words": [
+                [
+                    "delicious",
+                    1.0
+                ],
+                [
+                    "legendary",
+                    1.0
+                ],
+                [
+                    "best",
+                    1.0
+                ],
+                [
+                    "awesome",
+                    1.0
+                ],
+                [
+                    "impressed",
+                    1.0
+                ]
+            ],
+            "top_negative_words": [
+                [
+                    "violent",
+                    -0.8
+                ],
+                [
+                    "awfully",
+                    -1.0
+                ],
+                [
+                    "cruel",
+                    -1.0
+                ],
+                [
+                    "terrifying",
+                    -1.0
+                ],
+                [
+                    "ruthless",
+                    -1.0
+                ]
+            ]
+        },
+        "Spanish": {
+            "normalized_ttr": 12.73731735388045,
+            "mtld_score": 89.64430590673146,
+            "polarity": 0.11205240082074383,
+            "subjectivity": 0.4751357149156005,
+            "positive_count": 62.31666666666667,
+            "total_count": 1640.8833333333332,
+            "positive_ratio": 0.03799115199239096,
+            "negative_count": 33.833333333333336,
+            "negative_ratio": 0.020687151322658356,
+            "top_positive_words": [
+                [
+                    "best",
+                    1.0
+                ],
+                [
+                    "perfectly",
+                    1.0
+                ],
+                [
+                    "delicious",
+                    1.0
+                ],
+                [
+                    "impressed",
+                    1.0
+                ],
+                [
+                    "wonderfully",
+                    1.0
+                ]
+            ],
+            "top_negative_words": [
+                [
+                    "claustrophobic",
+                    -0.75
+                ],
+                [
+                    "grief",
+                    -0.8
+                ],
+                [
+                    "base",
+                    -0.8
+                ],
+                [
+                    "crap",
+                    -0.8
+                ],
+                [
+                    "nasty",
+                    -1.0
+                ]
+            ]
+        },
+        "Arabic": {
+            "normalized_ttr": 12.789246080450308,
+            "mtld_score": 89.63165551866561,
+            "polarity": 0.10005264868972921,
+            "subjectivity": 0.47581792073106044,
+            "positive_count": 60.58333333333333,
+            "total_count": 1589.6666666666665,
+            "positive_ratio": 0.03790441503851623,
+            "negative_count": 36.8,
+            "negative_ratio": 0.02304791127659382,
+            "top_positive_words": [
+                [
+                    "top-notch",
+                    1.0
+                ],
+                [
+                    "delicious",
+                    1.0
+                ],
+                [
+                    "best",
+                    1.0
+                ],
+                [
+                    "Best",
+                    1.0
+                ],
+                [
+                    "impressed",
+                    1.0
+                ]
+            ],
+            "top_negative_words": [
+                [
+                    "grief",
+                    -0.8
+                ],
+                [
+                    "worthless",
+                    -0.8
+                ],
+                [
+                    "idiot",
+                    -0.8
+                ],
+                [
+                    "base",
+                    -0.8
+                ],
+                [
+                    "hated",
+                    -0.9
+                ]
+            ]
+        }
+    },
+    "averages_by_gender": {
+        "male": {
+            "normalized_ttr": 12.908698660211506,
+            "mtld_score": 90.48208932758675,
+            "polarity": 0.10395056789449375,
+            "subjectivity": 0.4731350926245941,
+            "positive_count": 60.36666666666667,
+            "total_count": 1603.8583333333333,
+            "positive_ratio": 0.037446317181909425,
+            "negative_count": 35.175,
+            "negative_ratio": 0.022041183072151922,
+            "top_positive_words": [
+                [
+                    "excellent",
+                    1.0
+                ],
+                [
+                    "legendary",
+                    1.0
+                ],
+                [
+                    "delicious",
+                    1.0
+                ],
+                [
+                    "best",
+                    1.0
+                ],
+                [
+                    "perfectly",
+                    1.0
+                ]
+            ],
+            "top_negative_words": [
+                [
+                    "grief",
+                    -0.8
+                ],
+                [
+                    "violent",
+                    -0.8
+                ],
+                [
+                    "worthless",
+                    -0.8
+                ],
+                [
+                    "awfully",
+                    -1.0
+                ],
+                [
+                    "cruel",
+                    -1.0
+                ]
+            ]
+        },
+        "female": {
+            "normalized_ttr": 12.868254057152,
+            "mtld_score": 90.73335510444991,
+            "polarity": 0.10796445922929813,
+            "subjectivity": 0.4781682515787822,
+            "positive_count": 62.64166666666667,
+            "total_count": 1620.275,
+            "positive_ratio": 0.03862265942490492,
+            "negative_count": 35.099999999999994,
+            "negative_ratio": 0.021618539158150818,
+            "top_positive_words": [
+                [
+                    "top-notch",
+                    1.0
+                ],
+                [
+                    "best",
+                    1.0
+                ],
+                [
+                    "perfectly",
+                    1.0
+                ],
+                [
+                    "delicious",
+                    1.0
+                ],
+                [
+                    "awesome",
+                    1.0
+                ]
+            ],
+            "top_negative_words": [
+                [
+                    "claustrophobic",
+                    -0.75
+                ],
+                [
+                    "grief",
+                    -0.8
+                ],
+                [
+                    "idiot",
+                    -0.8
+                ],
+                [
+                    "base",
+                    -0.8
+                ],
+                [
+                    "crap",
+                    -0.8
+                ]
+            ]
+        }
+    }
+}
