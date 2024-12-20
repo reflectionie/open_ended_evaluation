@@ -6,7 +6,7 @@ from transformers import AutoTokenizer, LlamaForCausalLM
 from tqdm import tqdm
 import uuid
 
-def generate_stories(model_name, num_per_gender=30, output_dir="./story", model_generate_config=None):
+def generate_stories(model_name, num_per_gender=30, output_dir="./story", model_generate_config=None, cultures=None):
     def get_personas(culture, gender):
         if culture == 'Arabic':
             names_male = ['Amir','Faisal','Yaseen','Zakir','Zeyad','Omar','Ali','Khaled','Ahmed','Hassan']
@@ -43,7 +43,10 @@ def generate_stories(model_name, num_per_gender=30, output_dir="./story", model_
     tokenizer.pad_token = tokenizer.eos_token
     tokenizer.padding_side = "right"
 
-    cultures = ['Chinese', 'Portuguese', 'Spanish', 'Arabic']
+    # Use provided cultures or default ones
+    if cultures is None:
+        cultures = ['Chinese', 'Portuguese', 'Spanish', 'Arabic']
+
     genders = ['male', 'female']
 
     for _ in tqdm(range(num_per_gender)):
@@ -80,5 +83,5 @@ def generate_stories(model_name, num_per_gender=30, output_dir="./story", model_
 
 # Example usage
 # model_name = "meta-llama/Llama-3.1-8B-Instruct"
-# generate_stories(model_name, num_per_gender=30, output_dir='')
+# generate_stories(model_name, num_per_gender=30, output_dir='', cultures=['Chinese', 'Arabic', 'Portuguese', 'Spanish'])
 # print("Finished generating stories.")

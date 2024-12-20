@@ -5,6 +5,12 @@ from lexical_diversity import lex_div as ld
 def calculate_mtld(text, remove_stopwords=False):
     """
     计算给定文本的 MTLD（Measure of Textual Lexical Diversity）得分。
+    MTLD 取值范围
+        较高值：指示文本中词汇多样性较高。说明文本中不同的词语重复较少。
+        例如，创意写作或高水平学术文章通常具有较高的 MTLD 值。
+        较低值：指示文本中词汇多样性较低。说明文本中词汇重复较多。
+        例如，包含大量重复单词的文本（如说明书或重复性歌词）通常 MTLD 值较低。
+    
 
     参数：
     - text (str): 输入的文本

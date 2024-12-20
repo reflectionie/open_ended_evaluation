@@ -4,7 +4,7 @@ from collections import defaultdict
 from tqdm import tqdm
 from metrics.cal_STTR import calculate_normalized_ttr
 from metrics.cal_MTLD import calculate_mtld
-from metrics.cal_n_gram_diversity_or_inverse_homogenization import compute_n_gram_diversity
+from metrics.cal_n_gram_diversity_or_inverse_homogenization import compute_n_gram_diversity, compute_inverse_homogenization
 from metrics.cal_sentiment_score import analyze_sentiment
 from metrics.cal_words_ratio import analyze_positive_words, analyze_negative_words, get_top_k_words
 

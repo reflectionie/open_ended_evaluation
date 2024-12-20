@@ -108,8 +108,8 @@ def compute_avg_pairwise_distances(embeddings, distance_fn=DEF_DIST_FN):
         avg_pairwise_distances.append(mean(pairwise_distances))
     return avg_pairwise_distances
 
-def compute_inverse_homogenization(texts, emb_model=DEF_EMB_MODEL, emb_type=DEF_EMB_TYPE, emb_strategy="direct", 
-                                   distance_fn=DEF_DIST_FN, preprocessing_args=DEF_PREPROCESSING_ARGS):
+def compute_inverse_homogenization(texts, emb_model=DEF_EMB_MODEL, emb_type=DEF_EMB_TYPE,
+                                   distance_fn=DEF_DIST_FN):
     def compute_text_embedding(text):
         return get_embedding(text, emb_model, emb_type)
 

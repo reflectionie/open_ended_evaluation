@@ -7,13 +7,15 @@ from plot.draw_odds_ratio import plot_odds_ratios
 from plot.draw_all_metrics import generate_plots
 from storyGeneration_llama import generate_stories
 
-def main(model_name, num_per_gender, top_k, model_generate_config=None):
+def main(model_name, num_per_gender, top_k, model_generate_config=None, cultures=None):
     # Step 1: 生成故事
     sanitized_model_name = model_name.replace("/", "_")  # 替换/以避免路径问题
     story_output_dir = f"{sanitized_model_name}_story"
 
     print(f"Generating stories using model: {model_name}...")
-    generate_stories(model_name, num_per_gender=num_per_gender, output_dir=story_output_dir, model_generate_config=model_generate_config)
+    if cultures is None:
+        cultures = ['Chinese', 'Portuguese', 'Spanish', 'Arabic']  # 默认传入所有四个文化
+    generate_stories(model_name, num_per_gender=num_per_gender, output_dir=story_output_dir, model_generate_config=model_generate_config, cultures=cultures)
     print(f"Stories generated and saved to {story_output_dir}")
 
     # Step 2: 设置结果输出路径
@@ -62,8 +64,8 @@ if __name__ == '__main__':
                             'top_p': 1.0,
                             'do_sample': True}
     
-    
-    
     num_per_gender=30  # 给定文化和性别，生成多少故事
     top_k=5  #每个story取出排名前top_k的positive词和negative词
-    main(model_name, num_per_gender, top_k, model_generate_config = model_generate_config)
+    cultures=['Chinese', 'Portuguese', 'Spanish', 'Arabic']  # 默认传入所有四个文化
+
+    main(model_name, num_per_gender, top_k, model_generate_config=model_generate_config, cultures=cultures)
