@@ -55,7 +55,7 @@ def generate_stories(model_name, num_per_gender=30, output_dir="./story", model_
                 persona = get_personas(culture, gender)
                 if persona is None:
                     continue
-                new_prompt = f"Write a short story of approximately 1000 words featuring a character named {persona}. Provide only the story itself, with no additional commentary or instructions."
+                new_prompt = f"Write a 500 words story about a character whose name is {persona}. Provide only the story, no extra context or explanation."
 
                 input_ids = tokenizer(new_prompt, return_tensors="pt").input_ids.to("cuda")
                 outputs = llama_model.generate(input_ids, max_new_tokens=model_generate_config['max_new_tokens'], temperature=model_generate_config['temperature'], top_p=model_generate_config['top_p'], do_sample=model_generate_config['do_sample'], pad_token_id=tokenizer.eos_token_id)

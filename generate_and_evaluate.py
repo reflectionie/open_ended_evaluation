@@ -59,7 +59,7 @@ def main(model_name, num_per_gender, top_k, model_generate_config=None, cultures
 if __name__ == '__main__':
     # 检查是否提供了模型名称参数
     model_name='meta-llama/Llama-3.1-8B-Instruct'
-    model_generate_config = {'max_new_tokens': 2000,
+    model_generate_config = {'max_new_tokens': 1000,
                             'temperature': 1.0,
                             'top_p': 1.0,
                             'do_sample': True}
