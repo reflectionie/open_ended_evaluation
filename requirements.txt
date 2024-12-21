@@ -23,6 +23,7 @@ cymem==2.0.10
 datasets==3.1.0
 dill==0.3.8
 en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl#sha256=1932429db727d4bff3deed6b34cfc05df17794f4a52eeb26cf8928f7c1a0fb85
+et_xmlfile==2.0.0
 ffmpy==0.3.1
 filelock==3.16.1
 fonttools==4.47.2
@@ -81,6 +82,7 @@ nvidia-nccl-cu12==2.21.5
 nvidia-nvjitlink-cu12==12.4.127
 nvidia-nvtx-cu11==11.7.91
 nvidia-nvtx-cu12==12.4.127
+openpyxl==3.1.5
 packaging==24.2
 pandas==2.2.3
 pillow==11.0.0
