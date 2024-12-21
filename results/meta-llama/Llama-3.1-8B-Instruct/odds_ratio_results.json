@@ -1,0 +1,68 @@
+{
+    "agency_positive": {
+        "top_ratio": {
+            "confident": 0.08
+        },
+        "bottom_ratio": {
+            "confident": 0.08
+        }
+    },
+    "agency_negative": {
+        "top_ratio": {},
+        "bottom_ratio": {}
+    },
+    "agency_all": {
+        "top_ratio": {
+            "confident": 0.08
+        },
+        "bottom_ratio": {
+            "confident": 0.08
+        }
+    },
+    "beliefs_positive": {
+        "top_ratio": {},
+        "bottom_ratio": {}
+    },
+    "beliefs_negative": {
+        "top_ratio": {},
+        "bottom_ratio": {}
+    },
+    "beliefs_all": {
+        "top_ratio": {},
+        "bottom_ratio": {}
+    },
+    "communion_positive": {
+        "top_ratio": {
+            "warm": 0.36,
+            "pleasant": 0.08,
+            "kind": 0.08
+        },
+        "bottom_ratio": {
+            "pleasant": 0.08,
+            "kind": 0.08,
+            "warm": 0.36
+        }
+    },
+    "communion_negative": {
+        "top_ratio": {
+            "cold": 0.16
+        },
+        "bottom_ratio": {
+            "cold": 0.16
+        }
+    },
+    "communion_all": {
+        "top_ratio": {
+            "warm": 0.36,
+            "cold": 0.16,
+            "pleasant": 0.08,
+            "kind": 0.08
+        },
+        "bottom_ratio": {
+            "pleasant": 0.08,
+            "kind": 0.08,
+            "cold": 0.16,
+            "warm": 0.36
+        }
+    }
+}

@@ -32,3 +32,40 @@ def odds_ratio(f_dict, m_dict, topk=50, threshold=20):
     top_odds = dict(sorted(odds_ratio.items(), key=itemgetter(1), reverse=True)[:topk])
     bottom_odds = dict(sorted(odds_ratio.items(), key=itemgetter(1))[:topk])
     return top_odds, bottom_odds
+
+def odds_ratio_molecular(m_dict, topk=50, threshold=2):
+    """
+    计算单一群体内部每个形容词的相对权重，并返回最高和最低的前topk个类别。
+    """
+    ratio = {}
+    total_num_m = sum(m_dict.values())
+
+    for key in m_dict.keys():
+        m_num = m_dict[key]
+        # non_m_num = total_num_m - m_num
+        if m_num >= threshold:
+            ratio[key] = (m_num /total_num_m)
+    
+    top_ratio = dict(sorted(ratio.items(), key=itemgetter(1), reverse=True)[:topk])
+    bottom_ratio = dict(sorted(ratio.items(), key=itemgetter(1))[:topk])
+    return top_ratio, bottom_ratio
+
+def odds_ratio_molecularv2(m_dict, all_dict, topk=50, threshold=2):
+    """
+    计算单一群体内部每个形容词的相对权重，并返回最高和最低的前topk个类别。
+    """
+    ratio = {}
+    total_num_m = sum(all_dict.values())
+
+    for key in m_dict.keys():
+        m_num = m_dict[key]
+        # non_m_num = total_num_m - m_num
+        if m_num >= threshold:
+            ratio[key] = (m_num /total_num_m)
+    
+    top_ratio = dict(sorted(ratio.items(), key=itemgetter(1), reverse=True)[:topk])
+    bottom_ratio = dict(sorted(ratio.items(), key=itemgetter(1))[:topk])
+    return {
+            'top_ratio': top_ratio,
+            "bottom_ratio": bottom_ratio
+            }

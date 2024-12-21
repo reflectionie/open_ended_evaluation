@@ -7,7 +7,7 @@ from plot.draw_all_metrics import generate_plots
 
 def main():
     # 假设故事已经生成，指定故事目录
-    story_output_dir = "generated_stories"  # 替换为实际的故事目录
+    story_output_dir = "generated_stories/Arabic/female"  # 替换为实际的故事目录
     if not os.path.exists(story_output_dir):
         print(f"Error: Story directory '{story_output_dir}' does not exist.")
         return

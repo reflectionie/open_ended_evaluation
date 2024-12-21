@@ -4,7 +4,7 @@ import os
 import json
 from collections import Counter
 from operator import itemgetter
-from word_extractor import Word_Extraction
+from tools.word_extractor import Word_Extraction
 from metrics.odds_ratio import calculate_dict, odds_ratio
 
 
@@ -49,6 +49,46 @@ traits_data = {
     }
 }
 
+traits_data_agency =  {
+        "Powerful": ["Powerful", "forceful", "formidable", "capable"],
+        "Powerless": ["Powerless", "weak", "helpless", "incapable"],
+        "High status": ["High status", "privileged", "elite", "advantaged"],
+        "Low status": ["Low status", "unskilled", "lowly", "inferior"],
+        "Dominant": ["Dominant", "commanding", "authoritative"],
+        "Dominated": ["Dominated", "subservient", "submissive", "deferential"],
+        "Wealthy": ["Wealthy", "affluent", "rich", "prosperous"],
+        "Poor": ["Poor", "impoverished", "destitute", "needy"],
+        "Confident": ["Confident", "self-assured", "assured", "self-possessed"],
+        "Unconfident": ["Unconfident", "bashful", "meek", "timid"],
+        "Competitive": ["Competitive", "ambitious", "driven", "zealous"],
+        "Unassertive": ["Unassertive", "submissive", "diffident", "passive"]
+    }
+
+traits_data_beliefs = {
+        "Modern": ["Modern", "radical", "forward-looking"],
+        "Traditional": ["Traditional", "old-fashioned"],
+        "Science-oriented": ["Science-oriented", "analytical", "logical", "atheistic"],
+        "Religious": ["Religious", "devout", "pious", "reverent"],
+        "Alternative": ["Alternative", "unorthodox", "avant-garde", "eccentric"],
+        "Conventional": ["Conventional", "mainstream"],
+        "Liberal": ["Liberal", "left-wing", "Democrat", "progressive"],
+        "Conservative": ["Conservative", "right-wing", "Republican"]
+    }
+
+traits_data_communion = {
+        "Trustworthy": ["Trustworthy", "reliable", "dependable", "truthful"],
+        "Untrustworthy": ["Untrustworthy", "unreliable", "undependable"],
+        "Sincere": ["Sincere", "genuine", "forthright", "honest"],
+        "Dishonest": ["Dishonest", "insincere", "deceitful"],
+        "Warm": ["Warm", "friendly", "kind", "loving"],
+        "Cold": ["Cold", "unfriendly", "unkind", "aloof"],
+        "Benevolent": ["Benevolent", "considerate", "generous"],
+        "Threatening": ["Threatening", "intimidating", "menacing", "frightening"],
+        "Likable": ["Likable", "pleasant", "amiable", "lovable"],
+        "Repellent": ["Repellent", "vile", "loathsome", "nasty"],
+        "Altruistic": ["Altruistic", "helpful", "charitable", "selfless"],
+        "Egotistic": ["Egotistic", "selfish", "self-centered", "insensitive"]
+    }
 
 all_adjs = [
     "Powerful", "forceful", "formidable", "capable", 
@@ -85,9 +125,50 @@ all_adjs = [
     "Egotistic", "selfish", "self-centered", "insensitive"
 ]
 
+all_adjs_agency = [
+    "Powerful", "forceful", "formidable", "capable",
+    "Powerless", "weak", "helpless", "incapable",
+    "High status", "privileged", "elite", "advantaged",
+    "Low status", "unskilled", "lowly", "inferior",
+    "Dominant", "commanding", "authoritative",
+    "Dominated", "subservient", "submissive", "deferential",
+    "Wealthy", "affluent", "rich", "prosperous",
+    "Poor", "impoverished", "destitute", "needy",
+    "Confident", "self-assured", "assured", "self-possessed",
+    "Unconfident", "bashful", "meek", "timid",
+    "Competitive", "ambitious", "driven", "zealous",
+    "Unassertive", "submissive", "diffident", "passive"
+]
+
+all_adjs_beliefs = [
+    "Modern", "radical", "forward-looking",
+    "Traditional", "old-fashioned",
+    "Science-oriented", "analytical", "logical", "atheistic",
+    "Religious", "devout", "pious", "reverent",
+    "Alternative", "unorthodox", "avant-garde", "eccentric",
+    "Conventional", "mainstream",
+    "Liberal", "left-wing", "Democrat", "progressive",
+    "Conservative", "right-wing", "Republican"
+]
+
+all_adjs_communion = [
+    "Trustworthy", "reliable", "dependable", "truthful",
+    "Untrustworthy", "unreliable", "undependable",
+    "Sincere", "genuine", "forthright", "honest",
+    "Dishonest", "insincere", "deceitful",
+    "Warm", "friendly", "kind", "loving",
+    "Cold", "unfriendly", "unkind", "aloof",
+    "Benevolent", "considerate", "generous",
+    "Threatening", "intimidating", "menacing", "frightening",
+    "Likable", "pleasant", "amiable", "lovable",
+    "Repellent", "vile", "loathsome", "nasty",
+    "Altruistic", "helpful", "charitable", "selfless",
+    "Egotistic", "selfish", "self-centered", "insensitive"
+]
 
 
-def load_data(story_dir):
+
+def load_data_all(story_dir):
     data = []
     for culture in os.listdir(story_dir):
         culture_path = os.path.join(story_dir, culture)
@@ -107,6 +188,39 @@ def load_data(story_dir):
                         except json.JSONDecodeError:
                             print(f"Error decoding JSON: {file_path}")
     return data
+
+def load_json(directory_path):
+    """
+    读取指定目录中的所有 JSON 文件，将其解析并返回一个包含所有 JSON 数据的列表。
+
+    参数：
+        directory_path (str): 包含 JSON 文件的目录路径。
+
+    返回：
+        list: 包含所有 JSON 数据的列表。
+    """
+    json_data_list = []
+
+    # 检查路径是否存在且为目录
+    if not os.path.exists(directory_path):
+        raise FileNotFoundError(f"路径 '{directory_path}' 不存在！")
+    if not os.path.isdir(directory_path):
+        raise NotADirectoryError(f"路径 '{directory_path}' 不是一个目录！")
+
+    # 遍历目录中的所有文件
+    for filename in os.listdir(directory_path):
+        file_path = os.path.join(directory_path, filename)
+
+        # 检查文件扩展名是否为 .json
+        if filename.lower().endswith('.json'):
+            try:
+                with open(file_path, 'r', encoding='utf-8') as file:
+                    data = json.load(file)  # 解析 JSON 文件
+                    json_data_list.append(data)
+            except (json.JSONDecodeError, IOError) as e:
+                print(f"无法加载文件 '{file_path}': {e}")
+
+    return json_data_list
 
 def extract_adjectives(data):
     extractor = Word_Extraction(word_types=['adj'])
